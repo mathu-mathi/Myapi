@@ -109,7 +109,7 @@ import apiConstant.FileConstant;
 		public void delete_TC04()
 		{
 			HashMap<String,String>headers=new HashMap<>();
-			headers.put("Token",token);
+			headers.put("Token",token());
 			headers.put("Content-Type","application/json");
 			//UpdateUser mathu=new UpdateUser("TA-1234587","7","4000","56324356");
 			  //String sPayload=CommonUtilis.serializeObject(mathu);
