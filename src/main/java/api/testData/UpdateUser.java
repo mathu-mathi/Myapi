@@ -7,10 +7,10 @@ public class UpdateUser {
 	private String pincode;
 	public UpdateUser(String accountno,String departmentno,String salary,String pincode)
 	{
-		this.accountno=accountno;
-		this.departmentno=departmentno;
-		this.salary=salary;
-		this.pincode=pincode;
+		this.accountno="TA-1234587";
+		this.departmentno="7";
+		this.salary="5000";
+		this.pincode="64104554";
 	}
 	public String getAccountNo()
 	{
@@ -28,5 +28,4 @@ public class UpdateUser {
 	{
 		return pincode;
 	}
-}
 }
