@@ -1,5 +1,17 @@
 package apitesting;
 
+import java.io.IOException;
+import java.util.HashMap;
+
+import org.testng.annotations.BeforeTest;
+
+import com.jayway.jsonpath.JsonPath;
+
+import apiConstant.FileConstant;
+import apiUtilis.CommonUtilis;
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
 public class ApiBaseTest {
 	public static String token;
 	public static void setToken() throws IOException
@@ -26,6 +38,3 @@ public class ApiBaseTest {
 		
 	}
 
-}
-
-}

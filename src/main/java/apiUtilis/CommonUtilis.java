@@ -1,5 +1,17 @@
 package apiUtilis;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+
+import api.testData.AddUser;
+
 public class CommonUtilis {
 	public static String readFile(String filePath) throws IOException
 	 {
@@ -27,4 +39,3 @@ public class CommonUtilis {
 	 }  
 	 }
 
-}
